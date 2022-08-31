@@ -3,4 +3,4 @@ sources:
       description: Load the BeeImage dataset
       driver: intake_xarray.image.ImageSource
       args:
-        urlpath: 'https://github.com/pwochner/BeeImage_test/raw/main/honey_bees.zip'
+        urlpath: ['zip://*.png:https://github.com/pwochner/BeeImage_test/raw/main/honey_bees.zip']
