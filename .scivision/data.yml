@@ -1,1 +1,6 @@
-
+sources:
+  honey_bees:
+      description: Load the BeeImage dataset
+      driver: intake_xarray.image.ImageSource
+      args:
+        urlpath: 'https://www.kaggle.com/datasets/jenny18/honey-bee-annotated-images/download?datasetVersionNumber=2'
